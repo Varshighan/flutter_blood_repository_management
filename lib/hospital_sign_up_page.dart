@@ -27,12 +27,12 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red.shade400, // Red background
+      backgroundColor: Colors.blue.shade700, // Red background
       body: Column(
         children: [
           // Custom AppBar without elevation and text
           Container(
-            color: Colors.red.shade400, // Match the background color
+            color: Colors.blue.shade700, // Match the background color
             height: 56.0, // Default height of an AppBar
           ),
           Expanded(
@@ -60,7 +60,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Hospital Name',
-                          prefixIcon: Icon(Icons.local_hospital, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.local_hospital, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -75,7 +75,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Registration Number',
-                          prefixIcon: Icon(Icons.badge, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.badge, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -90,7 +90,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Hospital Address',
-                          prefixIcon: Icon(Icons.location_on, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.location_on, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -105,7 +105,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'City',
-                          prefixIcon: Icon(Icons.location_city, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.location_city, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -120,7 +120,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'State',
-                          prefixIcon: Icon(Icons.map, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.map, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -136,7 +136,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Postal Code',
-                          prefixIcon: Icon(Icons.pin_drop, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.pin_drop, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -151,7 +151,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Contact Person Name',
-                          prefixIcon: Icon(Icons.person_outline, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.person_outline, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -166,7 +166,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Contact Person Designation',
-                          prefixIcon: Icon(Icons.business_center, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.business_center, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -182,7 +182,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Hospital Phone Number',
-                          prefixIcon: Icon(Icons.phone, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.phone, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -198,7 +198,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Contact Person Mobile Number',
-                          prefixIcon: Icon(Icons.phone_android, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.phone_android, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -213,7 +213,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Email Address',
-                          prefixIcon: Icon(Icons.email, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.email, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -228,7 +228,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                           filled: true,
                           fillColor: Colors.white,
                           hintText: 'Password',
-                          prefixIcon: Icon(Icons.lock, color: Colors.red.shade400),
+                          prefixIcon: Icon(Icons.lock, color: Colors.blue.shade700),
                           border: OutlineInputBorder(
                             borderRadius: BorderRadius.circular(30),
                             borderSide: BorderSide.none,
@@ -251,7 +251,7 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                         },
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Colors.white,
-                          foregroundColor: Colors.red.shade400,
+                          foregroundColor: Colors.blue.shade700,
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30),
                           ),
@@ -282,7 +282,7 @@ class HospitalAccountPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.red.shade400, // Red background for the entire screen
+      backgroundColor: Colors.blue.shade700, // Red background for the entire screen
       body: Center(
         child: SingleChildScrollView(
           padding: const EdgeInsets.all(16.0),
@@ -308,7 +308,7 @@ class HospitalAccountPage extends StatelessWidget {
                   labelText: 'Username',
                   filled: true,
                   fillColor: Colors.white,
-                  prefixIcon: Icon(Icons.person, color: Colors.red.shade400),
+                  prefixIcon: Icon(Icons.person, color: Colors.blue.shade700),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30),
                     borderSide: BorderSide.none,
@@ -324,7 +324,7 @@ class HospitalAccountPage extends StatelessWidget {
                   labelText: 'Password',
                   filled: true,
                   fillColor: Colors.white,
-                  prefixIcon: Icon(Icons.lock, color: Colors.red.shade400),
+                  prefixIcon: Icon(Icons.lock, color: Colors.blue.shade700),
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(30),
                     borderSide: BorderSide.none,
@@ -338,11 +338,11 @@ class HospitalAccountPage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   // Add logic for creating account with username and password
-                  Navigator.pushReplacementNamed(context, '/hospital_dashboard');
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const HospitalHomePage())); // Navigate to DonorHomePage
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
-                  foregroundColor: Colors.red.shade400,
+                  foregroundColor: Colors.blue.shade700,
                   shape: RoundedRectangleBorder(
                     borderRadius: BorderRadius.circular(30),
                   ),
