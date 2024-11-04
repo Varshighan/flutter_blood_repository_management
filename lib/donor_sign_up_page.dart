@@ -148,20 +148,20 @@ class DonorSignUpPageState extends State<DonorSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: streetController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Street',
-                          prefixIcon: Icon(Icons.home, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: streetController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Street',
+                      //     prefixIcon: Icon(Icons.home, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
                       TextField(
                         controller: cityController,
@@ -178,97 +178,97 @@ class DonorSignUpPageState extends State<DonorSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: stateController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'State',
-                          prefixIcon: Icon(Icons.map, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: stateController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'State',
+                      //     prefixIcon: Icon(Icons.map, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
-                      TextField(
-                        controller: zipCodeController,
-                        keyboardType: TextInputType.number,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Zip Code',
-                          prefixIcon: Icon(Icons.pin_drop, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: zipCodeController,
+                      //   keyboardType: TextInputType.number,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Zip Code',
+                      //     prefixIcon: Icon(Icons.pin_drop, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
-                      TextField(
-                        controller: emergencyNameController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Emergency Contact Name',
-                          prefixIcon: Icon(Icons.person_outline, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: emergencyNameController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Emergency Contact Name',
+                      //     prefixIcon: Icon(Icons.person_outline, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
-                      TextField(
-                        controller: emergencyRelationshipController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Emergency Contact Relationship',
-                          prefixIcon: Icon(Icons.group, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: emergencyRelationshipController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Emergency Contact Relationship',
+                      //     prefixIcon: Icon(Icons.group, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
-                      TextField(
-                        controller: emergencyContactController,
-                        keyboardType: TextInputType.phone,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Emergency Contact Number',
-                          prefixIcon: Icon(Icons.phone_in_talk, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: emergencyContactController,
+                      //   keyboardType: TextInputType.phone,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Emergency Contact Number',
+                      //     prefixIcon: Icon(Icons.phone_in_talk, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
-                      TextField(
-                        controller: medicalConditionsController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Medical Conditions (Optional)',
-                          prefixIcon: Icon(Icons.medical_services, color: Colors.red.shade400),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: medicalConditionsController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Medical Conditions (Optional)',
+                      //     prefixIcon: Icon(Icons.medical_services, color: Colors.red.shade400),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
                       TextField(
                         controller: lastDonationDateController,
