@@ -1,0 +1,60 @@
+from flask import Flask, request, jsonify
+import cx_Oracle
+
+app = Flask(__name__)
+
+# Oracle SQL connection details
+dsn = cx_Oracle.makedsn("hostname", "port", sid="servicename")  # Adjust based on your Oracle setup
+conn = cx_Oracle.connect(user="your_user", password="your_password", dsn=dsn)
+
+@app.route('/donor_login', methods=['POST'])
+def donor_login():
+    data = request.json
+    donor_name = data.get('donor_name')
+    phone_number = data.get('phone_number')
+
+    try:
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT * FROM Donor
+            WHERE donor_name = :name AND contact_phone = :phone
+        """, {'name': donor_name, 'phone': phone_number})
+        
+        donor = cursor.fetchone()
+
+        if donor:
+            return jsonify({"status": "success", "message": "Login successful", "donor_id": donor[0]})
+        else:
+            return jsonify({"status": "fail", "message": "Donor not found"})
+    except cx_Oracle.DatabaseError as e:
+        return jsonify({"status": "error", "message": str(e)})
+    finally:
+        cursor.close()
+
+@app.route('/hospital_login', methods=['POST'])
+def hospital_login():
+    data = request.json
+    hospital_name = data.get('hospital_name')
+    hospital_id = data.get('hospital_id')
+    password = data.get('password')
+
+    try:
+        cursor = conn.cursor()
+        cursor.execute("""
+            SELECT * FROM Hospital
+            WHERE hospital_name = :name AND hospital_id = :id AND password = :pwd
+        """, {'name': hospital_name, 'id': hospital_id, 'pwd': password})
+        
+        hospital = cursor.fetchone()
+
+        if hospital:
+            return jsonify({"status": "success", "message": "Login successful"})
+        else:
+            return jsonify({"status": "fail", "message": "Invalid credentials"})
+    except cx_Oracle.DatabaseError as e:
+        return jsonify({"status": "error", "message": str(e)})
+    finally:
+        cursor.close()
+
+if __name__ == "__main__":
+    app.run(debug=True)
