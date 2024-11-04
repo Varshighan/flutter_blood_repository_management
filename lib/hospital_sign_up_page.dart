@@ -69,20 +69,20 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: registrationNumberController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Registration Number',
-                          prefixIcon: Icon(Icons.badge, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: registrationNumberController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Registration Number',
+                      //     prefixIcon: Icon(Icons.badge, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
                       TextField(
                         controller: hospitalAddressController,
@@ -114,66 +114,66 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: stateController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'State',
-                          prefixIcon: Icon(Icons.map, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
-
-                      TextField(
-                        controller: postalCodeController,
-                        keyboardType: TextInputType.number,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Postal Code',
-                          prefixIcon: Icon(Icons.pin_drop, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
-
-                      TextField(
-                        controller: contactPersonNameController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Contact Person Name',
-                          prefixIcon: Icon(Icons.person_outline, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
-
-                      TextField(
-                        controller: contactPersonDesignationController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Contact Person Designation',
-                          prefixIcon: Icon(Icons.business_center, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: stateController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'State',
+                      //     prefixIcon: Icon(Icons.map, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
+                      //
+                      // TextField(
+                      //   controller: postalCodeController,
+                      //   keyboardType: TextInputType.number,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Postal Code',
+                      //     prefixIcon: Icon(Icons.pin_drop, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
+                      //
+                      // TextField(
+                      //   controller: contactPersonNameController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Contact Person Name',
+                      //     prefixIcon: Icon(Icons.person_outline, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
+                      //
+                      // TextField(
+                      //   controller: contactPersonDesignationController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Contact Person Designation',
+                      //     prefixIcon: Icon(Icons.business_center, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
                       TextField(
                         controller: hospitalPhoneNumberController,
@@ -191,21 +191,21 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: contactPersonMobileController,
-                        keyboardType: TextInputType.phone,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Contact Person Mobile Number',
-                          prefixIcon: Icon(Icons.phone_android, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: contactPersonMobileController,
+                      //   keyboardType: TextInputType.phone,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Contact Person Mobile Number',
+                      //     prefixIcon: Icon(Icons.phone_android, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      // ),
+                      // const SizedBox(height: 20),
 
                       TextField(
                         controller: emailController,
@@ -222,21 +222,21 @@ class HospitalSignUpPageState extends State<HospitalSignUpPage> {
                       ),
                       const SizedBox(height: 20),
 
-                      TextField(
-                        controller: passwordController,
-                        decoration: InputDecoration(
-                          filled: true,
-                          fillColor: Colors.white,
-                          hintText: 'Password',
-                          prefixIcon: Icon(Icons.lock, color: Colors.blue.shade700),
-                          border: OutlineInputBorder(
-                            borderRadius: BorderRadius.circular(30),
-                            borderSide: BorderSide.none,
-                          ),
-                        ),
-                        obscureText: true, // Hides password
-                      ),
-                      const SizedBox(height: 20),
+                      // TextField(
+                      //   controller: passwordController,
+                      //   decoration: InputDecoration(
+                      //     filled: true,
+                      //     fillColor: Colors.white,
+                      //     hintText: 'Password',
+                      //     prefixIcon: Icon(Icons.lock, color: Colors.blue.shade700),
+                      //     border: OutlineInputBorder(
+                      //       borderRadius: BorderRadius.circular(30),
+                      //       borderSide: BorderSide.none,
+                      //     ),
+                      //   ),
+                      //   obscureText: true, // Hides password
+                      // ),
+                      // const SizedBox(height: 20),
 
                       ElevatedButton(
                         onPressed: () {
@@ -338,7 +338,7 @@ class HospitalAccountPage extends StatelessWidget {
               ElevatedButton(
                 onPressed: () {
                   // Add logic for creating account with username and password
-                  Navigator.push(context, MaterialPageRoute(builder: (context) => const HospitalHomePage())); // Navigate to DonorHomePage
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => const HospitalHomePage()));
                 },
                 style: ElevatedButton.styleFrom(
                   backgroundColor: Colors.white,
