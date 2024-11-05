@@ -19,7 +19,7 @@ CREATE TABLE Donor (
     blood_group VARCHAR2(3),
     contact_phone VARCHAR2(15),
     contact_email VARCHAR2(15),
-    street_address VARCHAR2(15),
+    -- street_address VARCHAR2(15),
     city VARCHAR2(20),
     -- state VARCHAR2(50),
     -- zip_code VARCHAR2(10),
