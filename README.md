@@ -31,7 +31,7 @@ This system addresses the challenges of manual record-keeping, reduces wastage, 
 - **Database:** SQLite
 
 ---
-
+```text
 ## 📂 Project Structure
 
 blood_bank_app/
@@ -46,7 +46,7 @@ blood_bank_app/
 ├── pubspec.yaml # Flutter dependencies
 ├── README.md # Project documentation
 └── ...
-
+```
 ### 🧱 Prerequisites
 
 Ensure you have the following installed:
