@@ -81,3 +81,22 @@ Run the app:
 flutter pub get
 flutter run
 ```
+---
+## Screenshots
+<table>
+  <tr>
+    <td valign="top" width="50%">
+      <img src="https://github.com/user-attachments/assets/22c93110-04b0-4d46-b048-cbd8b623c895" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/e565fe7d-9cc6-44f5-be6a-a2a439135ea5" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/c4225f81-94b5-4821-95d8-abcdbbee1a0e" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/3bac0370-421b-4ac9-9250-d844dfbfa2ee" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/ffb884f8-95a7-4688-817d-dee970d393d7" width="100%"/>
+    </td>
+    <td valign="top" width="50%">
+      <img src="https://github.com/user-attachments/assets/1c608811-b5b1-4f87-ba7a-0809b84553f2" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/04b425ab-677d-4e2b-ac37-e1246680e9bb" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/5c5e83d7-753e-4950-8bd9-8f450cde18d5" width="100%"/><br/>
+      <img src="https://github.com/user-attachments/assets/5f455a96-f5d4-47e4-9736-0ae8afc30e19" width="100%"/>
+    </td>
+  </tr>
+</table>
